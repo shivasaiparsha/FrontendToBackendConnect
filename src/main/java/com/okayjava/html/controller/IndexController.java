@@ -19,8 +19,7 @@ public class IndexController {
 	
 	@PostMapping("/register")
 	public String userRegistration(@ModelAttribute User user, Model model) {
-		System.out.println(user.toString());
-		// validate 
+		// validate
 		System.out.println(user.getFname());
 		System.out.println(user.getLname());
 		System.out.println(user.getDob());
